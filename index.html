@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry Rooster</title>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./assets/logo.jpeg" type="image/x-icon">
+
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+
+<body>
+    <!-- header section  -->
+    <header id="home">
+        <nav class="navbar navbar-expand-sm fixed-top navbar-light bg-light shadow-lg">
+            <div class="container-xl">
+                <a class="navbar-brand ms-2 fw-bolder" href="#"> <span style="color: #5B283B;">Hungry</span> <span
+                        style="color: #FE4763;"> Rooster</span> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse  me-2" id="navbarContent">
+                    <ul class="navbar-nav ms-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#menu">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Carousel as Hero Section -->
+    <section id="heroCarousel" class="carousel slide container-xl pt-5 px-0 pb-0" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <img src="./assets/1.jpg" class="d-block w-100" alt="Delicious Meals Delivered">
+                <div class="carousel-caption d-block caption-overlay">
+                    <h5>Delicious Meals Delivered</h5>
+                    <p>Order fresh and tasty meals from our kitchen straight to your door.</p>
+                    <a href="#" class="btn btn-primary">Explore Menu</a>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <img src="./assets/2.jpg" class="d-block w-100" alt="Chef's Special Every Week">
+                <div class="carousel-caption d-block caption-overlay">
+                    <h5>Chef's Special Every Week</h5>
+                    <p>Indulge in unique dishes crafted with passion by our expert chefs.</p>
+                    <a href="#" class="btn btn-primary">Try This Week's Special</a>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <img src="./assets/3.jpg" class="d-block w-100" alt="Order Now and Enjoy At Home">
+                <div class="carousel-caption d-block caption-overlay">
+                    <h5>Order Now and Enjoy At Home</h5>
+                    <p>Experience the flavors of our kitchen from the comfort of your home.</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </section>
+
+    <main>
+        <!-- about section  -->
+        <section id="about" class="bg-light p-5">
+            <div class="container-xl mt-5">
+                <h2 class="text-center mb-4">About Hungry Rooster</h2>
+                <div class="row align-items-center">
+                    <!-- Left Column: Image -->
+                    <div class="col-sm-6 mb-4 mb-md-0">
+                        <img src="./assets/logo_5071.jpeg" class="img-fluid rounded shadow"
+                            alt="Hungry Rooster Restaurant">
+                    </div>
+                    <!-- Right Column: Text Content -->
+                    <div class="col-sm-6">
+                        <p class="text-start">"Hungry Rooster" is a restaurant and cloud kitchen that strives to provide
+                            quality service
+                            and prioritize customer needs. We offer in-house dining, delivery, and pickup services, all
+                            managed efficiently using the "Engaze" software platform.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- menus section  -->
+        <section id="menu" class="p-5 text-center">
+            <h2 class="text-center my-5">Menus</h2>
+            <div class="container-xl my-5">
+                <!-- Responsive Row for Cards -->
+                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+                    <!-- Card 1 -->
+                    <div class="col">
+                        <div class="card h-100 shadow-lg">
+                            <img src="./assets/Parmy_Fried_Chicken_2780.jpeg" class="card-img-top"
+                                alt="Original Fried Chicken">
+                            <div class="card-body text-center d-flex flex-column justify-content-between">
+                                <h5 class="card-title">Original Fried Chicken</h5>
+                                <p class="card-text">Crispy on the outside, juicy on the inside with accent seasoning.
+                                </p>
+                                <p class="fw-bold">Tk 379</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col">
+                        <div class="card h-100 shadow-lg">
+                            <img src="./assets/Parmy_Fried_Chicken_2780.jpeg" class="card-img-top"
+                                alt="Spicy Chicken Wings">
+                            <div class="card-body text-center d-flex flex-column justify-content-between">
+                                <h5 class="card-title">Spicy Chicken Wings</h5>
+                                <p class="card-text">Hot and spicy wings to satisfy your cravings.</p>
+                                <p class="fw-bold">Tk 249</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col">
+                        <div class="card h-100 shadow-lg">
+                            <img src="./assets/Original_Fried_Chicken_6847.jpeg" class="card-img-top"
+                                alt="Chicken Burger">
+                            <div class="card-body text-center d-flex flex-column justify-content-between">
+                                <h5 class="card-title">Chicken Burger</h5>
+                                <p class="card-text">Juicy chicken patty with fresh lettuce and tomato.</p>
+                                <p class="fw-bold">Tk 299</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="col">
+                        <div class="card h-100 shadow-lg">
+                            <img src="./assets/Original_Fried_Chicken_6847.jpeg" class="card-img-top"
+                                alt="Korean Fried Chicken">
+                            <div class="card-body text-center d-flex flex-column justify-content-between">
+                                <h5 class="card-title">Korean Fried Chicken</h5>
+                                <p class="card-text">Prepared with Korean sauce, spices & fried chicken.</p>
+                                <p class="fw-bold">Tk 419</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="col">
+                        <div class="card h-100 shadow-lg">
+                            <img src="./assets/Original_Fried_Chicken_6847.jpeg" class="card-img-top"
+                                alt="Parmy Fried Chicken">
+                            <div class="card-body text-center d-flex flex-column justify-content-between">
+                                <h5 class="card-title">Parmy Fried Chicken</h5>
+                                <p class="card-text">Intensely savory parmesan & herbs.</p>
+                                <p class="fw-bold">Tk 419</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="col">
+                        <div class="card h-100 shadow-lg">
+                            <img src="./assets/Original_Fried_Chicken_6847.jpeg" class="card-img-top"
+                                alt="Thai Fried Chicken">
+                            <div class="card-body text-center d-flex flex-column justify-content-between">
+                                <h5 class="card-title">Thai Fried Chicken</h5>
+                                <p class="card-text">Sweet & spicy wings served with lemongrass sauce.</p>
+                                <p class="fw-bold">Tk 419</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 7 -->
+                    <div class="col">
+                        <div class="card h-100 shadow-lg">
+                            <img src="./assets/Original_Fried_Chicken_6847.jpeg" class="card-img-top"
+                                alt="Thai Fried Chicken">
+                            <div class="card-body text-center d-flex flex-column justify-content-between">
+                                <h5 class="card-title">Thai Fried Chicken</h5>
+                                <p class="card-text">Sweet & spicy wings served with lemongrass sauce.</p>
+                                <p class="fw-bold">Tk 419</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 8 -->
+                    <div class="col">
+                        <div class="card h-100 shadow-lg">
+                            <img src="./assets/Original_Fried_Chicken_6847.jpeg" class="card-img-top"
+                                alt="Thai Fried Chicken">
+                            <div class="card-body text-center d-flex flex-column justify-content-between">
+                                <h5 class="card-title">Thai Fried Chicken</h5>
+                                <p class="card-text">Sweet & spicy wings served with lemongrass sauce.</p>
+                                <p class="fw-bold">Tk 419</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 9 -->
+                    <div class="col">
+                        <div class="card h-100 shadow-lg">
+                            <img src="./assets/Original_Fried_Chicken_6847.jpeg" class="card-img-top"
+                                alt="Thai Fried Chicken">
+                            <div class="card-body text-center d-flex flex-column justify-content-between">
+                                <h5 class="card-title">Thai Fried Chicken</h5>
+                                <p class="card-text">Sweet & spicy wings served with lemongrass sauce.</p>
+                                <p class="fw-bold">Tk 419</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 10 -->
+                    <div class="col">
+                        <div class="card h-100 shadow-lg">
+                            <img src="./assets/Original_Fried_Chicken_6847.jpeg" class="card-img-top"
+                                alt="Thai Fried Chicken">
+                            <div class="card-body text-center d-flex flex-column justify-content-between">
+                                <h5 class="card-title">Thai Fried Chicken</h5>
+                                <p class="card-text">Sweet & spicy wings served with lemongrass sauce.</p>
+                                <p class="fw-bold">Tk 419</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 11 -->
+                    <div class="col">
+                        <div class="card h-100 shadow-lg">
+                            <img src="./assets/Original_Fried_Chicken_6847.jpeg" class="card-img-top"
+                                alt="Thai Fried Chicken">
+                            <div class="card-body text-center d-flex flex-column justify-content-between">
+                                <h5 class="card-title">Thai Fried Chicken</h5>
+                                <p class="card-text">Sweet & spicy wings served with lemongrass sauce.</p>
+                                <p class="fw-bold">Tk 419</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 12 -->
+                    <div class="col">
+                        <div class="card h-100 shadow-lg">
+                            <img src="./assets/Original_Fried_Chicken_6847.jpeg" class="card-img-top"
+                                alt="Thai Fried Chicken">
+                            <div class="card-body text-center d-flex flex-column justify-content-between">
+                                <h5 class="card-title">Thai Fried Chicken</h5>
+                                <p class="card-text">Sweet & spicy wings served with lemongrass sauce.</p>
+                                <p class="fw-bold">Tk 419</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="p-5 text-center bg-light">
+            <div class="container-xl mt-5">
+                <h2 class="mb-4">Contact Us</h2>
+                <form class="mx-auto" style="max-width: 500px;">
+                    <!-- Name Input -->
+                    <div class="form-outline mb-4 ">
+                        <input type="text" id="form4Example1" class="form-control" placeholder="Your Name" />
+                    </div>
+                    <!-- Email Input -->
+                    <div class="form-outline mb-4 ">
+                        <input type="email" id="form4Example2" class="form-control" placeholder="name@example.com" />
+                    </div>
+                    <!-- Message Input -->
+                    <div class="form-outline mb-4">
+                        <textarea class="form-control" id="form4Example3" rows="4"
+                            placeholder="Your message here"></textarea>
+                    </div>
+                    <!-- Submit Button -->
+                    <button type="submit" class="btn btn-primary btn-block w-100">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- footer section  -->
+    <footer class="text-center text-lg-start border-top border-dark">
+        <div class="container-xl p-4">
+            <div class="row d-flex justify-content-between align-items-center">
+                <!-- Social Media Icons -->
+                <div class="col-md-4 mb-4 mb-md-0 d-flex justify-content-center justify-content-md-start fs-3">
+                    <a href="https://www.facebook.com" target="_blank" class="me-3 text-reset"><i
+                            class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com" target="_blank" class="me-3 text-reset"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com" target="_blank" class="me-3 text-reset"><i
+                            class="fab fa-youtube"></i></a>
+                </div>
+
+                <!-- Developed By Section -->
+                <div class="col-md-4 mb-3 mb-md-0 text-center">
+                    <span>Developed By | </span>
+                    <a href="https://github.com/fd-Martin" target="_blank" class="text-reset text-decoration-none">Fuad
+                        Martin</a>
+                </div>
+
+                <!-- Copyright Notice -->
+                <div class="col-md-4 text-center text-md-end">
+                    <p class="mb-0">&copy; Copyright 2024 Hungry Rooster. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Disclaimer Text -->
+        <div class="text-center small p-4 mb-2 container-xl">
+            <p class="mb-1">Food shown are for illustration purposes only. Actual product may differ from the images
+                shown on this website.The Hungry Rooster name, logos, and related marks are trademarks of Hungry
+                Rooster, Inc.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
